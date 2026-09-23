@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:paddingVertical="4dp"
+     android:paddingHorizontal="14dp">
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:paddingVertical="9dp"
+         android:orientation="vertical"
+         android:maxWidth="280dp"
+         android:paddingHorizontal="13dp"
+         android:id="@+id/bubbleContainerAdmin">
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:textSize="14.5sp"
+             android:id="@+id/tvTextoAdmin" />
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:alpha="0.65"
+             android:textSize="10sp"
+             android:layout_marginTop="3dp"
+             android:id="@+id/tvHoraAdmin" />
+
+    </LinearLayout>
+
+</FrameLayout>
